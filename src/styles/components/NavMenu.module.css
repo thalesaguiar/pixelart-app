@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: azure;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+.logo{
+  border-radius: 50%;
+  width: 4rem;
+  padding-top: 0;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  }
+
+.menu {
+  margin-right: 2rem;
+  word-spacing: 1.5rem;
+  font-weight: 300;
+}
+  
