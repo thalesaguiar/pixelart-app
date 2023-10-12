@@ -22,7 +22,7 @@ export default function PixelArtCarrousel() {
   return (
     <div className={styles.container}>
     <section>
-        <h2 className={styles.title}>Some Pixel Art For Inspiration</h2>
+        <h2 className={styles.title}> Pixel Art For Inspiration</h2>
         
         <div className={styles.carroussel}>
           <button
