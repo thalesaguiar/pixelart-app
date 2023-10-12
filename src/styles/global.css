@@ -6,17 +6,17 @@
 }
 
 :root {
---white:#fff;
---background: #F2F3F5;
---gray-line:#DCDDE0;
---text: #666666;
---text-highlight: #B3B9FF;
---title: #2E384D;
---red: #E83F5B;
---green: #4CD62B;
---blue: #5965E0;
---blue-dark:#4953B8;
---blue-twiter:#2AA9E0;
+  --white: #fff;
+  --background: #f2f3f5;
+  --gray-line: #dcdde0;
+  --text: #666666;
+  --text-highlight: #b3b9ff;
+  --title: #2e384d;
+  --red: #e83f5b;
+  --green: #4cd62b;
+  --blue: #5965e0;
+  --blue-dark: #4953b8;
+  --blue-twiter: #2aa9e0;
 }
 
 @media (max-width: 1080px) {
@@ -32,23 +32,21 @@
 }
 
 body {
-	background: var(--background);
-	color: var(--text);
-  font-family: 'Inter', sans-serif;
-
+  background: var(--background);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
 }
 
-body, input, textarea, button {
-  font: 400 1rem "Inter",
+body,
+input,
+textarea,
+button {
+  font: 400 1rem "Inter";
 }
 a {
-  font: 400 1.5rem "Pixelify Sans" , sans-serif;
+  font: 400 1.5rem "Pixelify Sans", sans-serif;
 }
 
 button {
   cursor: pointer;
 }
-
-
-
-

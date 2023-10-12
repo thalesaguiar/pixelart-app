@@ -3,27 +3,27 @@
     {
       "id": 1,
       "title": "infinitetwilight",
-      "path": "../infinitetwilight.jpg"
+      "path": "../infinitetwilight.png"
     },
     {
       "id": 2,
       "title": "countryside",
-      "path": "../countryside.jpg"
+      "path": "../countryside.png"
     },
     {
       "id": 3,
       "title": "coast",
-      "path": "../coast.jpg"
+      "path": "../coast.png"
     },
     {
       "id": 4,
       "title": "candycorn",
-      "path": "../candycorn.jpg"
+      "path": "../candycorn.png"
     },
     {
       "id": 5,
       "title": "clocktower",
-      "path": "../clocktower.jpg"
+      "path": "../clocktower.png"
     }
   ]
 }
