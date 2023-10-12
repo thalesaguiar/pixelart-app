@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "title": "infinitetwilight",
+      "path": "../infinitetwilight.jpg"
+    },
+    {
+      "id": 2,
+      "title": "countryside",
+      "path": "../countryside.jpg"
+    },
+    {
+      "id": 3,
+      "title": "coast",
+      "path": "../coast.jpg"
+    },
+    {
+      "id": 4,
+      "title": "candycorn",
+      "path": "../candycorn.jpg"
+    },
+    {
+      "id": 5,
+      "title": "clocktower",
+      "path": "../clocktower.jpg"
+    }
+  ]
+}
