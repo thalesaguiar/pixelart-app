@@ -2,6 +2,8 @@ import { useState } from "react";
 import styles from "../styles/components/PixelArtCarrousel.module.css";
 import imagespath from "../../imagespath.json";
 
+let lastIndexImg = imagespath.images.length - 1;
+
 export default function PixelArtCarrousel() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const currentImage = imagespath.images[currentImageIndex];
@@ -12,9 +14,13 @@ export default function PixelArtCarrousel() {
   }
 
   function fowardImage() {
-    const fowardIndex = currentImageIndex - 1;
-    if (fowardIndex >= 0) {
+    const fowardIndex = (currentImageIndex - 1) % imagespath.images.length;
+    if (fowardIndex === -1) {
+      setCurrentImageIndex(lastIndexImg);
+      console.log(fowardIndex);
+    } else {
       setCurrentImageIndex(fowardIndex);
+      console.log(fowardIndex);
     }
   }
 
