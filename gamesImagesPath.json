@@ -1,0 +1,46 @@
+{
+  "pixelArtGames": [
+    {
+      "id": 1,
+      "title": "Axiom Verge",
+      "path": "../axiomverge.png",
+      "description": "Axion é um jogo em pixel art de ação e aventura com uma jogabilidade envolvente e gráficos retro incríveis."
+    },
+    {
+      "id": 2,
+      "title": "Enter the Gungeon",
+      "path": "../gungeon.png",
+      "description": "Enter the Gungeon é um jogo de tiro em pixel art com masmorras geradas aleatoriamente e muitas armas malucas para explorar."
+    },
+    {
+      "id": 3,
+      "title": "Hotline Miami",
+      "path": "../hotlinemiami.png",
+      "description": "Hotline Miami é um jogo em pixel art de ação intensa com uma trilha sonora eletrizante e uma história misteriosa."
+    },
+    {
+      "id": 4,
+      "title": "Hyper Light Drifter",
+      "path": "../hyperlight.png",
+      "description": "Hyper Light Drifter é um jogo de aventura em pixel art com um mundo misterioso para explorar e combates desafiadores."
+    },
+    {
+      "id": 5,
+      "title": "Stardew Valley",
+      "path": "../stardewvalley.png",
+      "description": "Stardew Valley é um simulador de fazenda em pixel art, onde você pode cultivar colheitas, criar animais e construir sua fazenda dos sonhos."
+    },
+    {
+      "id": 6,
+      "title": "Terraria",
+      "path": "../terraria.png",
+      "description": "Terraria é um jogo de sandbox em pixel art, onde você pode explorar, construir e lutar em um mundo vasto e cheio de mistérios."
+    },
+    {
+      "id": 7,
+      "title": "Undertale",
+      "path": "../undertale.png",
+      "description": "Undertale é um RPG em pixel art que oferece escolhas significativas e uma narrativa única, repleta de personagens memoráveis."
+    }
+  ]
+}
