@@ -1,12 +1,18 @@
 import React from "react";
 import Profile from "../components/NavMenu";
-import PixelArtCArrousel from "../components/PixelArtCarrousel";
+import PixelArtHistory from "../components/PixelArtHistory";
+import PixelArtCarrousel from "../components/PixelArtCarrousel";
+import PixelArtGamesSlide from "../components/PixelArtGamesSlide";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <div>
       <Profile />
-      <PixelArtCArrousel />
+      <PixelArtCarrousel />
+      <PixelArtHistory />
+      <PixelArtGamesSlide />
+      <Footer />
     </div>
   );
 }
